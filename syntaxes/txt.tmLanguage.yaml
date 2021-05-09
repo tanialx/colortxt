@@ -8,6 +8,7 @@ patterns:
  - include: "#bracket_notes"
  - include: "#quotes"
  - include: "#list_subjs"
+ - include: "#email"
 repository:
  heading_1:
   patterns:
@@ -32,3 +33,6 @@ repository:
  list_subjs:
   name: "markup.bold.txt"
   match: "^-.*:\\s"
+ email:
+  name: markup.underline.txt
+  match: \b[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9]+\b
