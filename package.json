@@ -2,6 +2,7 @@
     "name": "colortxt",
     "displayName": "ColorTXT",
     "description": "Raw text highlights",
+    "license": "MIT",
     "publisher": "tanialx",
     "homepage": "https://github.com/tanialx/colortxt/blob/main/README.md",
     "repository": {
